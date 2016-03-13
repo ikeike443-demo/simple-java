@@ -7,8 +7,20 @@ Maven
 
 ## Getting Started
 
+### OSX/Linux
 Just run:
 
 ```
 $ script/server
+```
+
+### Windows
+First:
+```
+$ mvn clean install
+```
+
+Then:
+```
+$ mvn ninja:run
 ```
